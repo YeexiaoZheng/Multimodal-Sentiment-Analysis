@@ -18,14 +18,11 @@ from Trainer import Trainer
 # args
 parser = argparse.ArgumentParser()
 parser.add_argument('--do_train', action='store_true', help='训练模型')
-parser.add_argument('--text_pretrained_model', default='bert-base-uncased', help='文本分析模型', type=str)
-parser.add_argument('--fuse_model_type', default='NaiveCombine', help='融合模型类别', type=str)
+parser.add_argument('--text_pretrained_model', default='roberta-base', help='文本分析模型', type=str)
+parser.add_argument('--fuse_model_type', default='OTE', help='融合模型类别', type=str)
 parser.add_argument('--lr', default=5e-5, help='设置学习率', type=float)
 parser.add_argument('--weight_decay', default=1e-2, help='设置权重衰减', type=float)
 parser.add_argument('--epoch', default=10, help='设置训练轮数', type=int)
-
-parser.add_argument('--do_valid_only_text', action='store_true', help='验证训练集数据(仅文本)')
-parser.add_argument('--do_valid_only_img', action='store_true', help='验证训练集数据(仅图像)')
 
 parser.add_argument('--do_test', action='store_true', help='预测测试集数据')
 parser.add_argument('--load_model_path', default=None, help='已经训练好的模型路径', type=str)
