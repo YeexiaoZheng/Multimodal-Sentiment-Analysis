@@ -63,21 +63,21 @@ pip install -r requirements.txt
 
 **CrossModalityAttentionCombine**
 
-![CrossModalityAttentionCombineModel](D:\0-GitHub\Multimodal-Sentiment-Analysis\src\CrossModalityAttentionCombineModel.png)
+![CrossModalityAttentionCombineModel](./src/CrossModalityAttentionCombineModel.png)
 
 
 
 **HiddenStateTransformerEncoder**
 
-![HiddenStateTransformerEncoderCombineModel](D:\0-GitHub\Multimodal-Sentiment-Analysis\src\HiddenStateTransformerEncoderCombineModel.png)
+![HiddenStateTransformerEncoderCombineModel](./src/HiddenStateTransformerEncoderCombineModel.png)
 
 **OutputTransformerEncoder**
 
-![OutputTransformerEncoderModel](D:\0-GitHub\Multimodal-Sentiment-Analysis\src\OutputTransformerEncoderModel.png)
+![OutputTransformerEncoderModel](./src/OutputTransformerEncoderModel.png)
 
 ## Train
 
-需下载数据集，并放在data文件夹中解压，数据集地址：（后续更新）
+需下载数据集，并放在data文件夹中解压，数据集地址：链接: https://pan.baidu.com/s/10fOExXqSCS4NmIjfsfuo9w?pwd=gqzm 提取码: gqzm 复制这段内容后打开百度网盘手机App，操作更方便哦
 
 ```shell
 python main.py --do_train --epoch 10 --text_pretrained_model roberta-base --fuse_model_type OTE 单模态(--text_only --img_only)
