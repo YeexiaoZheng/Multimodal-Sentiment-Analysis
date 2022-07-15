@@ -166,7 +166,7 @@ OutputTransformerEncoderModel Result：（另一模态输入文本为空字符�
 | Text Only  | 71.875 |
 | Image Only | 63     |
 
-## Attribution
+## Reference
 
 Joint Fine-Tuning for Multimodal Sentiment Analysis：[guitld/Transfer-Learning-with-Joint-Fine-Tuning-for-Multimodal-Sentiment-Analysis: This is the code for the Paper "Guilherme L. Toledo, Ricardo M. Marcacini: Transfer Learning with Joint Fine-Tuning for Multimodal Sentiment Analysis (LXAI Research Workshop at ICML 2022)". (github.com)](https://github.com/guitld/Transfer-Learning-with-Joint-Fine-Tuning-for-Multimodal-Sentiment-Analysis)
 
